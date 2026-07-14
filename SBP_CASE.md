@@ -65,7 +65,7 @@ sequenceDiagram
 
 Карта переходов статусов сущности «Транзакция» в базе данных на протяжении всего процесса обработки перевода:
 
-<img src="https://skrinshoter.ru/scUlySX6Rl7" alt="UML State Machine Diagram" width="700"/>
+<img src="https://skrinshoter.ru/s/140726/lySX6Rl7.jpg?download=1&name=%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82-14-07-2026%2016:56:51.jpg" alt="UML State Machine Diagram" width="700"/>
 
 ---
 
@@ -124,4 +124,4 @@ WHERE id = 555;
 
 Результат успешного ручного тестирования разработанного REST-эндпоинта перевода в среде Postman (проверка корректности структуры JSON и получения ответа `200 OK` от сервера):
 
-<img src="https://skrinshoter.ru/scU9LqGzX3N" alt="Postman Testing Result" width="800"/>
+<img src="https://skrinshoter.ru/s/140726/9LqGzX3N.jpg?download=1&name=%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82-14-07-2026%2016:49:27.jpg" alt="Postman Testing Result" width="800"/>
