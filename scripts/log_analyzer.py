@@ -1,3 +1,4 @@
+import json
 def analyze_logs(logs):
     balance=0
     i=0
@@ -7,4 +8,12 @@ def analyze_logs(logs):
         if log["status"] == "FAILED":
             i += 1
     return {"sum": balance, "errors": i}
-print(analyze_logs(api_logs))
+
+with open('scripts/api_responses.json', 'r', encoding='utf-8') as file:
+    loaded_logs = json.load(file)
+
+report = analyze_logs(loaded_logs)
+
+print("--- Аналитический отчет по логам ---")
+print(f"Успешно обработано на сумму: {report['sum']} руб.")
+print(f"Обнаружено критических ошибок: {report['errors']}")
