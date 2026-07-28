@@ -1,0 +1,6 @@
+[
+    {"timestamp": "10:00", "status": "COMPLETED", "data": {"balance": 5000}},
+    {"timestamp": "10:01", "status": "FAILED", "data": null},
+    {"timestamp": "10:02", "status": "COMPLETED", "data": {"balance": 12000}},
+    {"timestamp": "10:03", "status": "FAILED", "data": null}
+]
