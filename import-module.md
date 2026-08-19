@@ -8,8 +8,8 @@
 * **Архитектурный стиль исходной системы:** Монолит (CMS/Framework-based)
 * **Роль в проекте:** Технический аналитик-проектировщик (с полной технической реализацией)
 * **Интерфейсы на продакшене (актуально на момент публикации):** 
-  * Панель импорта DoorHan: [doorhan-montage.ru/excel/index.php](https://doorhan-montage.ru)
-  * Панель импорта Alutech: [alutech-proect.ru/import.html](https://alutech-proect.ru)
+  * Панель импорта DoorHan: [doorhan-montage.ru/excel/index.php](https://doorhan-montage.ru/excel/index.php)
+  * Панель импорта Alutech: [alutech-proect.ru/import.html](https://alutech-proect.ru/import.html)
 
 ---
 
